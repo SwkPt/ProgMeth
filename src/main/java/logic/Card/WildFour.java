@@ -1,4 +1,6 @@
 package logic.Card;
 
-public class WildFour {
+import logic.Card.Base.WildCard;
+
+public class WildFour extends WildCard {
 }

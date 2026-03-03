@@ -1,4 +1,6 @@
 package logic.Card;
 
-public class KSKTrade {
+import logic.Card.Base.KSKCard;
+
+public class KSKTrade extends KSKCard {
 }

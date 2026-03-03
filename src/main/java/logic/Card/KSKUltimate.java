@@ -1,4 +1,6 @@
 package logic.Card;
 
-public class KSKUltimate {
+import logic.Card.Base.KSKCard;
+
+public class KSKUltimate extends KSKCard {
 }

@@ -1,4 +1,6 @@
 package logic.Card;
 
-public class KSKStrike {
+import logic.Card.Base.KSKCard;
+
+public class KSKStrike extends KSKCard {
 }

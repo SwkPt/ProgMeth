@@ -1,4 +1,4 @@
 package logic.Card.Base;
 
-public class KSKCard {
+public class KSKCard extends BaseCard{
 }

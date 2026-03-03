@@ -1,4 +1,6 @@
 package logic.Card;
 
-public class DrawTwo {
+import logic.Card.Base.ActionCard;
+
+public class DrawTwo extends ActionCard {
 }

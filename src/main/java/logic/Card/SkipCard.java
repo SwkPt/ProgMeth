@@ -1,4 +1,6 @@
 package logic.Card;
 
-public class SkipCard {
+import logic.Card.Base.ActionCard;
+
+public class SkipCard extends ActionCard {
 }

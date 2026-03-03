@@ -1,4 +1,4 @@
 package logic.Card.Base;
 
-public class WildCard {
+public class WildCard extends BaseCard{
 }

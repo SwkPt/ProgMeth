@@ -1,4 +1,6 @@
 package logic.Card;
 
-public class ReverseCard {
+import logic.Card.Base.ActionCard;
+
+public class ReverseCard extends ActionCard {
 }

@@ -1,4 +1,7 @@
 package logic.Card;
 
-public class NumberCard {
+import logic.Card.Base.BaseCard;
+
+public class NumberCard extends BaseCard {
+    private int number;
 }
