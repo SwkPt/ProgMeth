@@ -1,4 +1,8 @@
 package logic.Card.Base;
 
-public class KSKCard extends BaseCard{
+public abstract class KSKCard extends BaseCard {
+
+    public KSKCard() {
+        super(Color.KSK);
+    }
 }
