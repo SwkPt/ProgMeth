@@ -7,9 +7,7 @@ import logic.GameState;
 
 public class WildNormal extends WildCard implements ColorChange {
 
-    public WildNormal() {
-        super();
-    }
+    public WildNormal() { super(); }
 
     @Override
     public void chooseColor(BaseCard.Color color, GameState state) {

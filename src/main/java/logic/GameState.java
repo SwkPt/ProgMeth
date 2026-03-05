@@ -76,7 +76,7 @@ public class GameState {
         }
     }
 
-    public void recyclePlayerHand(Player p) {
+    public void recyclePlayerHand(Player p) {//เอามือเข้ากอง for strike + ultimate
         ArrayList<BaseCard> hand = new ArrayList<>(p.getHand());
         p.getHand().clear();
         deck.recycleCards(hand);
