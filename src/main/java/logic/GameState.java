@@ -29,7 +29,7 @@ public class GameState {
         activeColor = start.getColor();
     }
 
-    //getter (กูจะบ้าตาย)
+    //getter
     public ArrayList<Player> getPlayers()  { return players; }
     public Player getCurrentPlayer()       { return players.get(currentPlayerIndex); }
     public int getCurrentPlayerIndex()     { return currentPlayerIndex; }

@@ -1,6 +1,8 @@
 package logic.Card.Base;
 
-public abstract class WildCard extends BaseCard {
+import logic.interfaces.ColorChange;
+
+public abstract class WildCard extends BaseCard implements ColorChange {
 
     public WildCard() {
         super(Color.WILD);
